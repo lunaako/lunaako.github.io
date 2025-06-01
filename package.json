@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Yicheng Wang's Professional Portfolio Website",
-  "homepage": "https://lunaako.github.io",
+  "homepage": "https://lunaako.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
