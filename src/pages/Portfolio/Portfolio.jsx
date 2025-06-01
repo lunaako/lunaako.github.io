@@ -72,8 +72,10 @@ const Portfolio = () => {
                   </div>
                   <img src={project.image} alt={project.title} loading="lazy" />
                 </figure>
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-category">{project.category}</p>
+                <div className="project-content">
+                  <h3 className="project-title">{project.title}</h3>
+                  <p className="project-category">{project.category}</p>
+                </div>
               </a>
             </li>
           ))}
