@@ -14,8 +14,7 @@ export default defineConfig({
         assetFileNames: 'assets/[name]-[hash].[ext]',
         manualChunks: undefined,
       }
-    },
-    minify: 'terser'
+    }
   },
   esbuild: {
     target: 'es2015'
