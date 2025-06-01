@@ -89,11 +89,6 @@ const Aside = () => {
               </a>
             </li>
 
-            <li className="social-item">
-              <a href="https://yichengw1011.wixstudio.io/portfolio" className="social-link" target="_blank">
-                <ion-icon name="logo-web-component"></ion-icon>
-              </a>
-            </li>
           </ul>
         </div>
       </aside>
