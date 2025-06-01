@@ -6,7 +6,7 @@ const Aside = () => {
         <div className="sidebar-info">
           <figure className="avatar-box">
             <img
-              src={"/images/yicheng.jpg"}
+              src={`${import.meta.env.BASE_URL}images/yicheng.jpg`}
               alt="Yicheng Wang"
               width="80"
             />

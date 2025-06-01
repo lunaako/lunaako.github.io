@@ -11,7 +11,7 @@ const Portfolio = () => {
 
   // Load project data from projects.json
   useEffect(() => {
-    fetch('/projects.json')
+    fetch(`${import.meta.env.BASE_URL}projects.json`)
       .then(response => response.json())
       .then(data => {
         setProjects(data);
@@ -70,7 +70,7 @@ const Portfolio = () => {
                   <div className="project-item-icon-box">
                     <FaRegEye />
                   </div>
-                  <img src={project.image} alt={project.title} loading="lazy" />
+                  <img src={`${import.meta.env.BASE_URL}${project.image}`} alt={project.title} loading="lazy" />
                 </figure>
                 <div className="project-content">
                   <h3 className="project-title">{project.title}</h3>
