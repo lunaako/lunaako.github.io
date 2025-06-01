@@ -84,7 +84,7 @@ const Aside = () => {
             </li>
 
             <li className="social-item">
-              <a href="https://github.com/yichengw1011" className="social-link" target="_blank">
+            <a href="https://github.com/lunaako" className="social-link" target="_blank">
                 <ion-icon name="logo-github"></ion-icon>
               </a>
             </li>
