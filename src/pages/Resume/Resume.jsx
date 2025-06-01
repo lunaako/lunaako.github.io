@@ -23,16 +23,6 @@ const Resume = () => {
             date="2025 — 2026"
             description="Master of Computer Science - Pursuing advanced studies in computer science with focus on AI, systems, and software engineering."
           />
-          <TimelineItem
-            title="New York University"
-            date="2021 — 2023"
-            description="Advanced studies in computer science and technology, building foundation for software development and system design."
-          />
-          <TimelineItem
-            title="Shanghai Lixin University of Accounting and Finance"
-            date="2016 — 2020"
-            description="Bachelor's degree providing strong analytical and problem-solving foundation that supports technical programming skills."
-          />
         </ol>
       </div>
 
