@@ -13,6 +13,9 @@ import Resume from './pages/Resume/Resume.jsx';
 import About from './pages/About/About.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 
+// 获取基础路径
+const basename = import.meta.env.PROD ? '/luna-s-portfolo' : '';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,16 +34,18 @@ const router = createBrowserRouter([
         element: <Portfolio/>,
       },
       {
-        path: "blogs",
+        path: "/blogs",
         element: <Blogs/>
       },
       {
-        path: "contact",
+        path: "/contact",
         element: <Contact/>
       }
     ]
   },
-]);
+], {
+  basename: basename
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
