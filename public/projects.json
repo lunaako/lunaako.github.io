@@ -21,7 +21,7 @@
     "category": "Web design",
     "description": "Dog hotel booking platform inspired by Airbnb with booking management",
     "technologies": ["Node.js", "Express.js", "React", "Redux", "Sequelize", "PostgreSQL"],
-    "image": "images/woofbnb.jpg"
+    "image": "images/WoofBnB.jpg"
   }
 ]
   
